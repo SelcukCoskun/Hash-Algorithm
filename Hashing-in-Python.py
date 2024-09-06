@@ -7,7 +7,7 @@ while True:
 
  choice=input("Which hash algorithm do you want to use?/md-5/sha-1/sha-256/sha-512=")
 
- if choice =="md5":
+ if choice =="md-5":
       hash=hashlib.md5(text_utf)#We got the hash of the utf-8 type data
       hash2=hash.hexdigest()#Then we made it hexadecimal
       print(hash2)
